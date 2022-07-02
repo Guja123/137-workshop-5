@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    padding: 50px;
+    background-color: yellowgreen;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+main{
+    padding-top: 200px;
+}
+
+h1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -3999px;
+}
+
+h1 a{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.test{
+    text-indent: 50px;
+}
+
+.test::first-line{
+    color: red;
+}
+
+.test::first-letter{
+    font-size: 30px;
+}
+
+.test::selection{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.test::before{
+    content: "-";
+}
+
+.test::after{
+    content: "?";
+}
+
+.link:active{
+    color: blue;
+}
+
+.link:hover{
+    color: black;
+    background-color: yellow;
+}
+
+ul>:first-child{
+    color: red;
+}
+
+ul>:last-child{
+    color: yellow;
+}
+
+ul>:nth-child(3){
+    background-color: red;
+}
+
+body{
+    background-image: url(../img/robot.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mart{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    margin: 40px auto;
+   
+}
+
+.search{
+    width: 200px;
+    height: 90vh;
+    margin: 50px;
+    background-color: #000000;
+    float: left;
+}
+
+.pirveli{
+    padding: 50px;
+    color: #ffffff;
+    border: 20px dotted red;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.kvadrat{
+    height: 700px;
+    padding: 100px;
+    position: sticky;
+    background-color: hotpink;
+    top: 0px;
+    background-color: rgb(143, 120, 64, 0.5);
+}
+
+.babikvadrati{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: static;
+
+}
+
+.shviliko{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(108, 77, 77);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+.social{
+    width: 100px;
+    height: 200px;
+    /* background-color: blue; */
+    position: fixed;
+    top: 300px;
+    right: 0px;
+}
+
+.facebook, .instagram{
+    width: 100px;
+    height: 400px;
+}
+
+.facebook{
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.facebook a{
+    display: block;
+    width: 100px;
+    height: 200px;
+}
